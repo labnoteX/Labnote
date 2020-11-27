@@ -1,2 +1,2 @@
 # Labnote
-web app for making labnote
+web app for making labnote!

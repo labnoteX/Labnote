@@ -6,8 +6,19 @@
   <title>Lab Note</title>
   <link rel="stylesheet" href="css/styles.css">
   <link rel="shortcut icon" href="favicon.ico">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.1.1/jspdf.umd.min.js"></script>
+  <script>
+    import { jsPDF } from "jspdf";
+    const doc = new jsPDF();
+
+    doc.text("Hello world!", 10, 10);
+    doc.save("a4.pdf");
+  </script>
 </head>
 <body>
+  <div>
+
+  </div>
   <footer>
     <small>&copy;2020 Xiqi Tylor. All Rights Reserved.</small>
 </footer>
